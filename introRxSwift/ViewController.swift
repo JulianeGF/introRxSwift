@@ -20,7 +20,8 @@ struct ProductViewModel {
             Product(imageName: "gear", title: "Settings"),
             Product(imageName: "person.circle", title: "Profile"),
             Product(imageName: "airplane", title: "Flights"),
-            Product(imageName: "bell", title: "Activity")
+            Product(imageName: "bell", title: "Activity"),
+            Product(imageName: "message", title: "Message")
         ]
         
         items.onNext(products)
